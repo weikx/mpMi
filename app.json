@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#ff6700",
+    "navigationBarTitleText": "模仿小米商城",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/icon1-1.png",
+        "selectedIconPath":"pages/images/icon1-2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "pages/images/icon2-1.png",
+        "selectedIconPath": "pages/images/icon2-2.png"
+      }
+    ]
+  }
+}

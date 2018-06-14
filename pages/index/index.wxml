@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+<!--头部搜索框  -->
+ <view class="top-search">
+  <input class='top-search-input' placeholder-style="color:#dbdbdb" placeholder="搜索商品"></input>
+ </view>
+  <!--顶部轮播图  -->
+  <swiper class='swiper' circular="{{true}}" indicator-dots="{{true}}">
+    <swiper-item>
+      <image class='swiper-img' src='https://i1.mifile.cn/a4/xmad_15249062632369_lSAQr.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='swiper-img' src='https://i1.mifile.cn/a4/xmad_15259216544246_TDnvX.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='swiper-img' src='https://i1.mifile.cn/a4/xmad_15260013476548_Xnmig.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <!--中间的tab  -->
+  <view class='middle-tab'>
+    <view class='middle-tab-item'>
+      <image src='https://i8.mifile.cn/v1/a1/6d64ef02-bb5c-da49-45cb-7d6861885b29!144x152.webp'></image>
+    </view>
+    <view class='middle-tab-item'>
+      <image src='https://i8.mifile.cn/v1/a1/d29e748c-0177-5b4c-d2ab-401070713bac!144x152.webp'></image>
+    </view>
+    <view class='middle-tab-item'>
+      <image src='https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/9173298cc0297ce1803c43485e525358.jpg?thumb=1&w=144&h=152'></image>
+    </view>
+    <view class='middle-tab-item'>
+      <image src='https://i8.mifile.cn/v1/a1/e560f98a-48bb-25a1-daa2-72bff8cc7c69!144x152.webp'></image>
+    </view>
+    <view class='middle-tab-item'>
+      <image src='https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/938f75d98244629b0d29bfc9c4323f8d.png?thumb=1&w=144&h=152'></image>
+    </view>
+  </view>
+  <!--促销活动  -->
+  <view class='promotion'>
+    <view class='promotion-item'>
+    <image src='../images/promotion1.png'></image>
+    </view>
+    <view class='promotion-item'>
+     <image src='../images/promotion2.png'></image>
+    </view>
+  </view>
+  <view class='divider-line'></view>
+  <!--三张图  -->
+  
+</view>
